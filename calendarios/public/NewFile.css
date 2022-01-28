@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+	background-color: #95E1FF;
+	font-family: sans-serif;
+}
+
+section.enero {
+	background-color: lightyellow;
+	width: 25em;
+	text-align: center;
+	margin: 4em;
+	font-size: large;
+	border: 0.1em solid black;
+	padding-left: 5em;
+	padding-right: 5em;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+	border-collapse: collapse;
+}
+
+section.enero caption {
+	text-align: center;
+	letter-spacing: 0.3em;
+	font-weight: bold;
+}
+
+section.enero th {
+	width: 3em;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+section.enero table {
+	border-collapse: collapse;
+	text-align: center;
+	border-left: none;
+	border-right: none;
+}
+
+section.enero td {
+	border-left: none;
+	border-right: none;
+	width: 3em;
+	border-collapse: collapse;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	border-top: 0.2em solid black;
+	background-color: white;
+	padding-bottom: 1em;
+	width: 100%;
+	height: 2em;
+	text-align: center;
+}
+
+.pie {
+	position: relative;
+	display: inline-block;
+	font-size: smaller;
+}
+
+.italic {
+	font-style: italic;
+}
+
+section.febrero table {
+	border-collapse: collapse;
+	width: 80%;
+	font-size: 1.25em;
+	border-bottom: none;
+	border-top: none;
+}
+
+section.febrero {
+	background-color: lightyellow;
+	display: inline-block;
+	width: 30em;
+	text-align: right;
+	font-size: large;
+	border: 1px black solid;
+	border-collapse: collapse;
+	margin: 4em;
+	padding-left: 5em;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+section.febrero caption {
+	font-weight: bold;
+	text-align: right;
+}
+
+section.febrero th {
+	border-top: none;
+	border-bottom: none;
+}
+
+section.febrero td {
+	border-collapse: collapse;
+	border-top: none;
+	border-bottom: none;
+}
+
+section.marzo {
+	background-color: lightyellow;
+	border: 0.1em solid black;
+	padding-right: 3em;
+	padding-left: 3em;
+	width: 34em;
+	margin-left: 4.2em;
+}
+
+section.marzo table {
+	border-collapse: collapse;
+	text-align: left;
+}
+
+section.marzo caption {
+	font-variant: small-caps;
+	letter-spacing: 0.2em;
+	margin-bottom: 2em;
+	padding-top: 1em;
+	text-align: left;
+}
+
+section.marzo td {
+	font-size: 1em;
+	width: 4em;
+	height: 4em;
+	padding-left: 5px;
+	vertical-align: top;
+}
